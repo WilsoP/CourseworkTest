@@ -1,0 +1,14 @@
+﻿<Window x:Class="Presentation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="350">
+    <Grid>
+        <Button x:Name="NwBkn" Content="New Booking" HorizontalAlignment="Left" Height="30" Margin="50,100,0,0" VerticalAlignment="Top" Width="100" Click="NwBkn_Click"/>
+        <Button x:Name="OldBkn" Content="Old Booking" HorizontalAlignment="Left" Height="30" Margin="200,100,0,0" VerticalAlignment="Top" Width="100" Click="OldBkn_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,40 @@
+﻿<Window x:Class="Presentation.NewUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation"
+        mc:Ignorable="d"
+        Title="New Booking" Height="400" Width="497.291">
+    <Grid Margin="0,0,-203,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="673*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="202*"/>
+            <RowDefinition Height="167*"/>
+        </Grid.RowDefinitions>
+        <DatePicker x:Name="StrtDte" HorizontalAlignment="Left" Margin="7,40,0,0" VerticalAlignment="Top" Grid.Column="1" Height="24" Width="102"/>
+        <DatePicker x:Name="Enddte" HorizontalAlignment="Left" Margin="136,40,0,0" VerticalAlignment="Top" Grid.Column="1" Height="24" Width="102"/>
+        <Label x:Name="StrtLbl" Content="Start Date" HorizontalAlignment="Left" Margin="7,14,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="63"/>
+        <Label x:Name="EndLbl" Content="End Date" HorizontalAlignment="Left" Margin="136,14,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="58"/>
+        <CheckBox x:Name="BFast" Content="Breakfast" HorizontalAlignment="Left" Margin="1,171,0,0" VerticalAlignment="Top" Height="22" Width="102" Checked="BFast_Checked" Grid.Column="1"/>
+        <CheckBox x:Name="Dinner" Content="Evening Meals" HorizontalAlignment="Left" Margin="1,17,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Height="15" Width="96"/>
+        <CheckBox x:Name="Cars" Content="Car Hire" HorizontalAlignment="Left" Margin="1,57,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Height="15" Width="63"/>
+        <Label x:Name="BfastLbl" Content="Breakfast costs an aditional £5 per person per day" HorizontalAlignment="Left" Margin="0,188,0,0" VerticalAlignment="Top" Grid.RowSpan="2" Height="26" Width="274" Grid.Column="1"/>
+        <Label x:Name="EveLbl" Content="Evening Meals cost an extra £10 per person per night" HorizontalAlignment="Left" Margin="0,37,0,0" VerticalAlignment="Top" Grid.Row="1" Height="26" Width="292" Grid.Column="1"/>
+        <Label x:Name="CarLbl" Content="Car high cost £50 per day" HorizontalAlignment="Left" Margin="1,77,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Height="26" Width="145"/>
+        <Button x:Name="Cnfrm" Content="Confirm" HorizontalAlignment="Left" Margin="270,113,0,0" VerticalAlignment="Top" Width="86" Height="35" Click="Cnfrm_Click" Grid.Row="1" Grid.Column="1"/>
+        <Label x:Name="Ttl" Content="Total Cost:" HorizontalAlignment="Left" Margin="136,118,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Height="26" Width="65"/>
+        <Label x:Name="TtlDIsp" Content="" HorizontalAlignment="Left" Margin="201,118,0,0" VerticalAlignment="Top" Width="50" Grid.Row="1" Grid.Column="1" Height="26"/>
+        <Label x:Name="Chalet" Content="Chalet ID" HorizontalAlignment="Left" Margin="256,153,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="58"/>
+        <Label x:Name="ChaleDisp" Content="" HorizontalAlignment="Left" Margin="330,153,0,0" Width="26" VerticalAlignment="Top" RenderTransformOrigin="-0.592,0.821" Grid.Column="1" Height="26"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="100" Margin="256,40,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1"/>
+        <Label x:Name="ChltAval" Content="Avaliable Chalets" HorizontalAlignment="Left" Margin="256,14,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1" Height="26"/>
+        <TextBox x:Name="GuestIn" HorizontalAlignment="Left" Height="20" Margin="111,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50" TextChanged="GuestIn_TextChanged" Grid.Column="1"/>
+        <Label x:Name="Guest" Content="Amount of Guests" HorizontalAlignment="Left" Margin="0,89,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="106"/>
+        <Label x:Name="GuestInf" Content="A guest is someone staying in the chalet" HorizontalAlignment="Left" Height="30" Margin="1,122,0,0" VerticalAlignment="Top" Width="250" Grid.Column="1"/>
+
+    </Grid>
+</Window>

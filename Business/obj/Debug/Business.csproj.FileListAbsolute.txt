@@ -1,0 +1,3 @@
+C:\Users\paulw\Desktop\C# cw2\40276435\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\paulw\Desktop\C# cw2\40276435\Business\obj\Debug\Business.Properties.Resources.resources
+C:\Users\paulw\Desktop\C# cw2\40276435\Business\obj\Debug\Business.csproj.GenerateResource.Cache

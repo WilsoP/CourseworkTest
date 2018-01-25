@@ -1,0 +1,17 @@
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\bin\Debug\Presentation.exe.config
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\MainWindow.g.cs
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\NewBooking.g.cs
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\App.g.cs
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\Presentation_MarkupCompile.cache
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\Presentation_MarkupCompile.lref
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\bin\Debug\Presentation.exe
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\bin\Debug\Presentation.pdb
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\MainWindow.baml
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\NewBooking.baml
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\Presentation.g.resources
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\Presentation.exe
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\Presentation.pdb
+C:\Users\paulw\Desktop\C# cw2\40276435\Presentation\obj\Debug\ExistingBooking.g.cs
